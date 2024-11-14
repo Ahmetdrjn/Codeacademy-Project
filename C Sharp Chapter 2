@@ -1,0 +1,25 @@
+using System;
+
+public class GalacticTravelAgency { 
+  public static void Main(string[] args) {
+
+      
+      string passangerName = "Zara";
+      int passangerAge = 28;
+      string ticketType = "First Class";
+      string preferredPlanet = "Mars";
+
+      Console.WriteLine(passangerName);
+      
+      passangerAge++;
+      double passengerAgeDouble2 = (double)passangerAge; 
+ 
+     // Console.WriteLine(Convert.ToDouble(myInt));
+
+       Console.WriteLine(passengerAgeDouble2);
+       Console.WriteLine(Convert.ToString(passengerAgeDouble2));
+       Console.WriteLine(ticketType);
+       Console.WriteLine(preferredPlanet);
+
+  }
+}
