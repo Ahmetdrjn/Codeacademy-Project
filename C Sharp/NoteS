@@ -1,0 +1,34 @@
+        # Methods #
+
+• Math.Abs() -->  Finds the absolute value of a number.
+      Example: Math.Abs(-7)  returns 7.
+
+• Math.Sqrt() --> Finds the square root of given double.
+      Example: Math.Sqrt(25) returns 5.
+
+• Math:Floor() --> Rounds the given double or decimal down to the nearest whole number.
+      Example --> Math.Floor(9.66) returns 9.
+
+• Math.Ceiling() --> Rounds the given double or decimal up to the nearest whole number.
+      Example --> Math.Ceiling(9.66) returns 10.
+
+• Math.Round() --> Rounds the given double or decimal to the nearest whole number.
+      Example --> Math.Round(9.66) returns 10.
+
+• Math.Pow() --> Raises a number to the given power.
+      Example --> Math.Pow(2, 3) returns 8.
+
+• Math.Log() --> Returns the natural logarithm of a number.
+      Example --> Math.Log(100) returns 4.605170185988092.
+
+• Math.Min () --> Returns the minimum of two numbers.
+      Example --> Math.Min(2, 3) returns 2.
+
+• Math.Max() --> Returns the maximum of two numbers.
+      Example --> Math.Max(2, 3) returns 3.
+            
+
+
+            
+
+
