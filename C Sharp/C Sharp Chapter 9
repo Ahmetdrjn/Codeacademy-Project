@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace C_Sharp_Console_Decimal_Example
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            decimal euro = 35.99m;
+            decimal dolar = 34.55m;
+
+            int dolaradet;
+            int euroadet;
+            Console.WriteLine("Hesaplamak istedğiniz dolar miktarını giriniz");
+            dolaradet = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Hesaplamak istedğiniz euro miktarını giriniz");
+            euroadet= Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Doların Türk lirasaı değeri " + dolar * dolaradet);
+            Console.WriteLine("Euronun Türk lirası değeri " + euro * euroadet);
+            Console.Read();
+        }
+    }
+}
