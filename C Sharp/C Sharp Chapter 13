@@ -1,0 +1,23 @@
+using System;
+
+namespace PasswordCheck
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // Create password
+      Console.WriteLine("Enter a Password");
+      string passwordInput = Console.ReadLine();
+      
+      // Get password length
+      int passwordLength = passwordInput.Length;
+
+      // Check if password uses symbol
+      int passwordCheck = passwordInput.IndexOf("!");
+
+      // Print results
+      Console.WriteLine($"The user password is {passwordInput}. Its length is {passwordLength} and it receives a {passwordCheck} check.");
+    }
+  }
+}
