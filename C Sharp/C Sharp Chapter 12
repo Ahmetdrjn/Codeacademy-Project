@@ -1,0 +1,19 @@
+using System;
+
+namespace StoryTime
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // Declare the variables
+      string beginning = "Birgün bir çocuk eve gelmiş kimse yok";
+      string middle = "açmış bakmış dolabı şeker de sanmış ilacı";
+      string end ="yemiş yemiş bitirmiş akşama sancı başlamış kıvran kıvran kıvranmış hastaneyi boylamış";
+      // Concatenate the string and the variables 
+      string story = beginning + ", " + middle + ". " + end + ".";
+      // Print the story to the console 
+      Console.WriteLine(story);
+    }
+  }
+}
